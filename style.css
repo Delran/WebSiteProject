@@ -69,6 +69,7 @@ header nav ul li.navSeparator
     color : white;
     font-size : 1.5em;
     font-weight: bolder;
+    cursor: default;
 }
 
 #logo
@@ -174,6 +175,10 @@ section ul
 section ul li
 {
     margin-bottom: 0.5vw;
+}
+
+.navLink:hover {
+ cursor:pointer;
 }
 
 #localisationLink
