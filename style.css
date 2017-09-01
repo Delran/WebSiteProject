@@ -85,7 +85,7 @@ header nav ul li.navSeparator
 
 .anchor
 {
-    height: 8vh;
+    height: 9vh;
 }
 
 section
@@ -167,11 +167,17 @@ address
 
 section ul
 {
-    margin-left: 0;
+    margin-left: 1vw;
     padding-left: 0;
 }
 
 section ul li
 {
     margin-bottom: 0.5vw;
+}
+
+#localisationLink
+{
+    color: red;
+    text-decoration: none;
 }
