@@ -46,7 +46,7 @@ header nav ul li
     display: inline;
 }
 
-header nav ul li a.navLink
+.navLink
 {
     padding-bottom: 2vh;
     font-size : 1.5em;
@@ -55,14 +55,15 @@ header nav ul li a.navLink
     transition : 0.25s ease-in-out;
 }
 
-header nav ul li a:hover
+.navLink:hover
 {
     padding-bottom: 1vh;
     box-shadow: 0px 2px 0px 0px white;
     text-shadow: 0px 0px 5px white;
+    cursor:pointer;
 }
 
-header nav ul li.navSeparator
+.navSeparator
 {
     padding-left: 0.5vw;
     padding-right: 0.5vw;
@@ -72,13 +73,18 @@ header nav ul li.navSeparator
     cursor: default;
 }
 
-#logo
+.logo
 {
     float: left;
     margin-left: 15vw;
 }
 
-#logo img
+.logo:hover
+{
+    cursor: pointer;
+}
+
+.logo img
 {
     max-height: 7vh;
     width: auto;
@@ -177,12 +183,7 @@ section ul li
     margin-bottom: 0.5vw;
 }
 
-.navLink:hover {
- cursor:pointer;
-}
-
 #localisationLink
 {
     color: red;
-    text-decoration: none;
 }
