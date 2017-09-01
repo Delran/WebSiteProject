@@ -46,7 +46,7 @@ header nav ul li
     display: inline;
 }
 
-header nav ul li a
+header nav ul li a.navLink
 {
     padding-bottom: 2vh;
     font-size : 1.5em;
