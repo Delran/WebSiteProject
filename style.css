@@ -100,7 +100,7 @@ section
     display: inline-block;
     width : 70vw;
     margin-left: 15vw;
-    margin-bottom: 100vh;
+    margin-bottom: 66vh;
 }
 
 h1
@@ -117,40 +117,49 @@ address
     font-style: normal;
 }
 
+#gallery
+{
+    display: inline-block;
+    background-color: #ecf0f1;
+}
+
 .galleryFrame
 {
     display: inline;
     float: left;
-    width: 17vw;
-    margin: 0.15vw;
-    border: 1px solid gray;
+    width: 16.79vw;
+    margin: 0.3vw;
+    border: solid 1px gray;
     transition : 0.25s ease-in-out;
-}
-
-.galleryFrame:hover
-{
-    border: 1px solid red;
+    background-color: white;
 }
 
 .galleryImage
 {
     width: 100%;
-    height: auto;
+    height: 25vh;
 }
 
 .nonGalleryFrame
 {
-    width: 50%;
-    margin: auto;
+    display: inline-block;
+    width: 100%;
+    height: auto;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    border: 1px solid gray;
+    background-color: #ecf0f1;
     transition : 0.25s ease-in-out;
 }
 
-.nonGalleryFrame:hover
+.nonGalleryBorder
 {
-    border: 1px solid red;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid 1px gray;
+    background-color: white;
 }
 
 .nonGalleryImage
