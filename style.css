@@ -140,6 +140,12 @@ address
     height: 25vh;
 }
 
+.galleryDescription
+{
+    padding: 0.5vw;
+    text-align: center;
+}
+
 .nonGalleryFrame
 {
     display: inline-block;
