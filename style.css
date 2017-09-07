@@ -5,8 +5,7 @@ body
     width: 100vw;
     margin: 0;
     padding: 0;
-    /*background-color: white;*/
-	font-family: 'Roboto', sans-serif;
+	  font-family: 'Roboto', sans-serif;
     text-align : justify;
     background-image: url("images/1.jpg");
     background-size: cover;
@@ -27,7 +26,7 @@ header
     margin: 0;
     padding-top : 1vh;
     padding-bottom : 1vh;
-	background-color : red;
+    background-color : red;
     box-shadow: 0 1px 10px rgba(34, 25, 25, 0.4);
 }
 
@@ -106,11 +105,16 @@ section
     margin-left: 13vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    padding-bottom: 66vh;
+    margin-bottom: 66vh;
+    padding-bottom: 2vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("images/background.png");
 }
 
 h1
 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     font-size: 2em;
     color : red;
 }
@@ -126,7 +130,7 @@ address
 #gallery
 {
     display: inline-block;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(100, 100, 100, 0.5);
     box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
@@ -136,9 +140,9 @@ address
     float: left;
     width: 16.79vw;
     margin: 0.3vw;
-    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
     transition : 0.25s ease-in-out;
     background-color: white;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
 .galleryImage
@@ -192,9 +196,15 @@ section ul
     padding-left: 0;
 }
 
+section p
+{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
 section ul li
 {
     margin-bottom: 0.5vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 #localisationLink
