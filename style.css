@@ -5,9 +5,12 @@ body
     width: 100vw;
     margin: 0;
     padding: 0;
-	background-color : white;
+    /*background-color: white;*/
 	font-family: 'Roboto', sans-serif;
     text-align : justify;
+    background-image: url("images/1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 ::-webkit-scrollbar
 {
@@ -25,7 +28,7 @@ header
     padding-top : 1vh;
     padding-bottom : 1vh;
 	background-color : red;
-    box-shadow: 0px 5px 5px 0px gray;
+    box-shadow: 0 1px 10px rgba(34, 25, 25, 0.4);
 }
 
 header nav
@@ -88,6 +91,7 @@ header nav ul li
 {
     max-height: 7vh;
     width: auto;
+    margin-bottom: 0;
 }
 
 .anchor
@@ -99,8 +103,10 @@ section
 {
     display: inline-block;
     width : 70vw;
-    margin-left: 15vw;
-    margin-bottom: 66vh;
+    margin-left: 13vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 66vh;
 }
 
 h1
@@ -120,7 +126,8 @@ address
 #gallery
 {
     display: inline-block;
-    background-color: #ecf0f1;
+    background-color: rgba(255, 0, 0, 0.5);
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
 .galleryFrame
@@ -129,7 +136,7 @@ address
     float: left;
     width: 16.79vw;
     margin: 0.3vw;
-    border: solid 1px gray;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
     transition : 0.25s ease-in-out;
     background-color: white;
 }
@@ -138,23 +145,16 @@ address
 {
     width: 100%;
     height: 25vh;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
 .galleryDescription
 {
-    padding: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.3vh;
+    padding-bottom: 0.5vh;
     text-align: center;
-}
-
-.nonGalleryFrame
-{
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-color: #ecf0f1;
-    transition : 0.25s ease-in-out;
 }
 
 .nonGalleryBorder
@@ -164,7 +164,7 @@ address
     margin-left: 25%;
     margin-top: 2%;
     margin-bottom: 2%;
-    border: solid 1px gray;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
     background-color: white;
 }
 
@@ -172,11 +172,15 @@ address
 {
     width: 100%;
     height: auto;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
 .nonGalleryDescription
 {
-    padding: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.3vh;
+    padding-bottom: 0.5vh;
     text-align: center;
     font-size: 0.7em;
 }
